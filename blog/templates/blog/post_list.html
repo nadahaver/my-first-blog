@@ -7,10 +7,12 @@
             <h1><a href="">SemSentido</a></h1>
         </div>
 
+    {% for post in posts %}
         <div>
-            <p>publicado: 3.06.2017, 23:49</p>
-            <h2><ahref="">minha primeira publicação</a></h2>
-            <p>teste 1 </p>
+            <p>publicado: {{post.published_date}}</p>
+            <h2><ahref="">{{pos.title}}</a></h2>
+            <p>{{}post.text|linebreaksbr}}</p>
         </div>
+    {% end for%}
     </body>
 </html>
