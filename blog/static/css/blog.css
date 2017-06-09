@@ -4,6 +4,7 @@ h1 a {
     font-family: 'Lobster';
 }
 body {
+    background-image: url("img/background.jpg");
     padding-left: 15px;
 }
 .page-header {
